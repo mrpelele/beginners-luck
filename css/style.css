@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: linear-gradient(to bottom, #4040b6, #1c1c44);
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  align-content: center;
+  flex-direction: column; }
+
+/* static background for pages */
+.background_rocket {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/backgroundrocket.jpg);
+  background-size: 1920px 1080px;
+  background-blend-mode: darken;
+  background-attachment: fixed; }
+
+.background_league {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/backgroundlol.jpg);
+  background-size: 1920px 1080px;
+  background-blend-mode: darken;
+  background-attachment: fixed; }
+
+.background_rainbow6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/backgroundr6.jpg);
+  background-size: 1920px 1080px;
+  background-blend-mode: darken;
+  background-attachment: fixed; }
+
+.background--contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contacto-fondo.jpg);
+  background-size: 1920px 1080px;
+  background-blend-mode: darken;
+  background-attachment: fixed; }
+
+/* elementos generales*/
+header {
+  display: flex;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  position: sticky;
+  top: 0px;
+  z-index: 1; }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c44;
+  width: 10px;
+  list-style: none;
+  padding: 2px 25px 5px 10px;
+  margin-left: -10px;
+  position: fixed; }
+
+ol {
+  list-style: none; }
+
+h1 {
+  color: whitesmoke; }
+
+h2 {
+  color: whitesmoke; }
+
+div {
+  justify-content: center; }
+
+p {
+  color: whitesmoke; }
+
+footer {
+  color: gold;
+  text-align: right;
+  padding: 8px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  background-color: #1c1c44; }
+
+form {
+  color: whitesmoke; }
+
+/*ID*/
+#id1 {
+  font-size: 65px;
+  letter-spacing: 2px; }
+
+#DivPopular {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  border-color: black;
+  border-style: solid;
+  border-width: 10px; }
+
+#Contact {
+  display: flex;
+  justify-content: center;
+  padding-right: 25px; }
+
+/* CLASS */
+.a {
+  display: block;
+  text-decoration: none; }
+
+.main {
+  width: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 100; }
+
+.title {
+  color: gold;
+  text-align: center;
+  padding-bottom: 60px;
+  font-size: 80px; }
+
+.section_p--index {
+  letter-spacing: 2px;
+  font-size: 25px; }
+
+.section_p--genericgame {
+  font-size: 25px; }
+
+.section_p--genericgame_b {
+  font-size: 28px; }
+
+.MostPlayed {
+  position: sticky;
+  top: 5px;
+  color: gold;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 50px; }
+
+.PopularRocket {
+  display: flex;
+  background-image: url(../img/backgroundrocket.jpg);
+  padding: 400px 170px 300px 176px; }
+
+.PopularLOL {
+  display: flex;
+  background-image: url(../img/backgroundlol.jpg);
+  padding: 400px 175px 300px 175px; }
+
+.PopularR6 {
+  display: flex;
+  background-image: url(../img/backgroundr6.jpg);
+  padding: 400px 176px 300px 170px; }
+
+.footerDiv {
+  display: inline;
+  flex-direction: row;
+  padding: 0px; }
+
+.footerDivB {
+  display: inline;
+  flex-direction: row;
+  padding-right: 10px; }
+
+.popularCarousel {
+  height: 100%;
+  width: 100%;
+  padding: 100px 400px 100px 200px; }
+
+/* GRID/ANIMATIONS */
+.grid {
+  display: grid;
+  padding-right: 300px;
+  padding-left: 50px;
+  padding-top: 100px;
+  grid-gap: 8px;
+  height: 400px;
+  grid-template-areas: "img p" "img p2";
+  grid-template-columns: 3fr 5fr;
+  grid-template-rows: 1fr 2fr; }
+
+.grid2 {
+  display: grid;
+  padding-right: 50px;
+  padding-left: 300px;
+  padding-bottom: 30px;
+  grid-gap: 8px;
+  height: 300px;
+  grid-template-areas: "p  img" "p2 img";
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr 1fr; }
+
+.imgG {
+  grid-area: img;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0.5px solid black;
+  transition: 1s;
+  position: relative; }
+
+.imgG2 {
+  grid-area: img;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0.5px solid black;
+  transition: 1s;
+  position: relative; }
+
+.imgG:hover {
+  width: 150%;
+  height: 150%; }
+
+.imgG2:hover {
+  transform: translate(-250px, -100px);
+  width: 150%;
+  height: 150%; }
+
+.GridText {
+  grid-area: p;
+  justify-self: center;
+  align-self: center;
+  font-size: 60px; }
+
+.GridText2 {
+  grid-area: p2;
+  justify-self: center;
+  align-self: center;
+  font-size: 40px; }
+
+.GridText3 {
+  grid-area: p;
+  justify-self: center;
+  align-self: center;
+  font-size: 40px; }
+
+.GridText4 {
+  grid-area: p2;
+  justify-self: center;
+  align-self: center;
+  font-size: 25px; }
+
+.index {
+  display: grid;
+  grid-template-areas: "img p";
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr;
+  padding: 0px 50px 0px 50px;
+  margin-top: 200px; }
+
+.indexQuestion {
+  display: grid;
+  grid-template-areas: "img p";
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr;
+  padding: 0px 120px 0px 00px;
+  margin-top: 200px; }
+
+.indexMail {
+  display: grid;
+  grid-template-areas: "img p";
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr;
+  padding: 0px 115px 0px 00px;
+  margin-top: 200px;
+  grid-gap: 35px; }
+
+.GridTextIndex {
+  justify-self: center;
+  align-self: center;
+  font-size: 80px; }
+
+.GridTextIndex2 {
+  justify-self: center;
+  align-self: center;
+  font-size: 60px; }
+
+.gridPop {
+  display: grid;
+  grid-gap: 8px;
+  height: 800px;
+  width: 800px;
+  padding-left: 50px;
+  grid-template-areas: "img p1" "img p2" "img p3";
+  grid-template-columns: 1fr 1000px;
+  grid-template-rows: 190px 195px 190px; }
+
+.gridpopIMG {
+  background-color: black;
+  grid-area: img;
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
+
+.gridPopularCarousel1 {
+  grid-area: p1;
+  font-size: 50px;
+  padding-top: 50px; }
+
+.gridPopularCarousel2 {
+  grid-area: p2;
+  font-size: 40px; }
+
+.gridPopularCarousel3 {
+  grid-area: p3;
+  font-size: 45px; }
+
+/* MEDIA QUERIES */
+@media (max-width: 576px) {
+  #id1 {
+    font-size: 35px;
+    letter-spacing: 2px; }
+  .index {
+    display: grid;
+    grid-template-areas: "img p";
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+    padding: 0px 50px 0px 50px;
+    margin-top: 200px;
+    font-size: 40px; }
+  .indexQuestion {
+    display: grid;
+    grid-template-areas: "img p";
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+    padding: 20px 120px 0px 20px;
+    margin-top: 200px;
+    font-size: 40px;
+    grid-gap: 100px; }
+  .indexMail {
+    display: grid;
+    grid-template-areas: "img p";
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+    padding: 0px 115px 0px 00px;
+    margin-top: 200px;
+    grid-gap: 35px;
+    font-size: 40px; }
+  .GridTextIndex {
+    justify-self: center;
+    align-self: center;
+    font-size: 40px; }
+  .GridTextIndex2 {
+    justify-self: center;
+    align-self: center;
+    font-size: 60px;
+    font-size: 40px; } }
