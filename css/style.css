@@ -12,19 +12,19 @@ body {
 
 /* static background for pages */
 .background_rocket {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/backgroundrocket.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/backgroundrocket.jpg);
   background-size: 1920px 1080px;
   background-blend-mode: darken;
   background-attachment: fixed; }
 
 .background_league {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/backgroundlol.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/backgroundlol.jpg);
   background-size: 1920px 1080px;
   background-blend-mode: darken;
   background-attachment: fixed; }
 
 .background_rainbow6 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/backgroundr6.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/backgroundr6.jpg);
   background-size: 1920px 1080px;
   background-blend-mode: darken;
   background-attachment: fixed; }
@@ -127,6 +127,18 @@ form {
 
 .section_p--genericgame_b {
   font-size: 28px; }
+
+.section_p--genericgame2 {
+  font-size: 27px; }
+
+.section_p--genericgame2_b {
+  font-size: 33px; }
+
+.section_p--genericgame3 {
+  font-size: 24px; }
+
+.section_p--genericgame3_b {
+  font-size: 25px; }
 
 .MostPlayed {
   position: sticky;
