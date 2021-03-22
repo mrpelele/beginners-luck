@@ -119,8 +119,8 @@ form{
 /*ID*/
 
 #id1{
-    font-size: 65px;
-    letter-spacing: 2px;
+    font-size: 55px;
+    letter-spacing: 3px;
 }
 
 
@@ -130,7 +130,7 @@ form{
     align-items: stretch;
     border-color: rgb(0, 0, 0);
     border-style: solid;
-    border-width: 10px;
+    border-width: 8px;
 }    
 
 #Contact {
@@ -167,7 +167,7 @@ form{
 .section_p--index {
  
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 27px;
 
 }
 
@@ -222,14 +222,14 @@ form{
 .PopularRocket {
     display: flex;
     background-image: url(../img/backgroundrocket.jpg);
-    padding: 400px 170px 300px 176px;
+    padding: 400px 170px 310px 190px;
     
 }
 
 .PopularLOL{
     display: flex;
     background-image: url(../img/backgroundlol.jpg);
-    padding: 400px 175px 300px 175px;
+    padding: 400px 165px 310px 170px;
 
 }
 
@@ -237,7 +237,7 @@ form{
     display: flex;
     
     background-image: url(../img/backgroundr6.jpg);
-    padding: 400px 176px 300px 170px;
+    padding: 400px 170px 310px 170px;
     
     
 
@@ -266,6 +266,15 @@ form{
 }
 
 
+.popular_r6Grid--P {
+
+    font-size: 33px;
+    letter-spacing: 1px;
+
+    padding: 20px 50px 100px 50px; 
+
+
+}
     
 
 /* GRID/ANIMATIONS */
@@ -347,6 +356,7 @@ form{
     height: 150%;
 }
 
+
 .GridText {
     grid-area: p;
     justify-self: center;
@@ -388,6 +398,7 @@ form{
 
     padding: 0px 50px 0px 50px;
     margin-top: 200px;
+    margin-left: 15px;
 }
 
 .indexQuestion {
@@ -401,6 +412,7 @@ form{
 
     padding: 0px 120px 0px 00px;
     margin-top: 200px;
+    margin-left: 40px;
 }
 
 .indexMail {
@@ -415,6 +427,7 @@ form{
     padding: 0px 115px 0px 00px;
     margin-top: 200px;
     grid-gap: 35px;
+    margin-left: 20px;
 }
 
 
@@ -474,9 +487,220 @@ form{
     font-size: 45px;
 }
 
+
+.gridPopLOL {
+
+    display: grid;
+    grid-gap: 30px;
+    height: 800px;
+    width: 800px;
+    padding-left: 50px;
+    grid-template-areas: 
+        "img p"
+    ;
+
+    grid-template-columns: 600px 1000px;
+    grid-template-rows: 1000px;
+
+}
+
+.gridpopIMG--LOL {
+    background-color: rgb(0, 0, 0);
+    grid-area: img;
+    object-fit:cover;
+}
+
+.gridPopLOL--p {
+    grid-area: p;
+    object-fit: fill;
+    font-size: 47px;
+    padding-top: 50px;
+}
+
+
+.gridPopR6 {
+    display: grid;
+    grid-template-areas: 
+        "img img2"
+    ;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 500px;
+    grid-gap: 600px;
+    padding: 150px 150px 150px 0px; 
+    object-fit: scale-down;
+    font-size: 30px;
+    color: whitesmoke;
+
+}
+
+
+.gridR6Attack {
+
+    grid-area: img;
+    object-fit: scale-down;
+    height: 300px;
+    width: 500px;
+}
+
+.gridR6Defend {
+    grid-area: img2;
+    object-fit: scale-down;
+    height: 300px;
+    width: 500px;
+
+}
+
+
+.gifRL--grid {
+    display: grid;
+    grid-template-areas: 
+       "img p"
+       "t t"
+    ;
+    grid-template-columns: 700px 500px;
+    grid-template-rows: 400px 400px;
+    grid-gap: 5px;
+    padding: 50px 0px 600px 300px;
+    width: 1000px;
+    height: 600px;
+} 
+
+.gifRL--gridB {
+    display: grid;
+    grid-template-areas: 
+       "p img"
+       "t t"
+    ;
+    grid-template-columns: 500px 700px;
+    grid-template-rows: 400px 400px;
+    grid-gap: 30px;
+    padding: 50px 0px 800px 1250px;
+    width: 1000px;
+    height: 600px;
+} 
+
+
+.gifRL-gif {
+grid-area: img;
+
+
+}
+
+
+.gifRL-P {
+    grid-area: p;
+    font-size: 40px;
+    text-align: right;
+
+
+}
+
+
+.gifRL-P2{
+
+    grid-area: p;
+    font-size: 30px;
+    text-align: right;
+
+
+}
+
+.gifRL-Pt {
+    grid-area: t;
+    font-size: 40px;
+
+
+}
+
+.lolgif--grid  {
+
+    display: grid;
+    grid-template-areas: 
+        "img p img2"
+    ;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 700px;
+    padding: 200px 100px 100px 60px;
+    grid-gap: 20px;
+}
+
+
+.lolgif--gridL {
+
+    grid-area: img;
+
+}
+
+.lolgif--gridR {
+
+    grid-area: img2;
+
+}
+
+.lolgif--gridP {
+
+    grid-area: p;
+    font-size: 35px;
+
+}
+
+
+.r6gif--gridA {
+    display: grid;
+    grid-template-areas: 
+        "img   p"
+        "img2  p"
+    ;
+
+    padding: 300px 100px 100px 100px;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 400px 400px;
+    grid-gap: 15px;
+}
+
+
+.r6gif--gridB {
+
+    display: grid;
+    grid-template-areas: 
+        "p  img"
+        "p  img2"
+    ;
+
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 400px 400px;
+    padding: 100px 100px 100px 100px;
+    grid-gap: 15px;
+    
+
+}
+
+.r6gif--GridImg {
+
+    grid-area: img;
+    
+    }
+    
+    
+    .r6gif--GridImg2 {
+    
+    grid-area: img2;
+    
+    }
+
+.r6gif--GridP {
+
+    grid-area: p;
+    font-size: 54px;
+    padding-top: 30px;
+        
+}
+
 /* MEDIA QUERIES */
 
+
 @media (max-width: 576px) {
+    
 
     #id1{
         font-size: 35px;
