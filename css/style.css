@@ -454,7 +454,7 @@ form {
 /* MEDIA QUERIES */
 @media (max-width: 576px) {
   #id1 {
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 2px; }
   .index {
     display: grid;
@@ -463,7 +463,7 @@ form {
     grid-template-rows: 1fr;
     padding: 0px 50px 0px 50px;
     margin-top: 200px;
-    font-size: 40px; }
+    font-size: 20px; }
   .indexQuestion {
     display: grid;
     grid-template-areas: "img p";
@@ -471,7 +471,7 @@ form {
     grid-template-rows: 1fr;
     padding: 20px 120px 0px 20px;
     margin-top: 200px;
-    font-size: 40px;
+    font-size: 20px;
     grid-gap: 100px; }
   .indexMail {
     display: grid;
@@ -481,7 +481,7 @@ form {
     padding: 0px 115px 0px 00px;
     margin-top: 200px;
     grid-gap: 35px;
-    font-size: 40px; }
+    font-size: 20px; }
   .GridTextIndex {
     justify-self: center;
     align-self: center;
@@ -490,4 +490,10 @@ form {
     justify-self: center;
     align-self: center;
     font-size: 60px;
-    font-size: 40px; } }
+    font-size: 40px; }
+  main {
+    font-size: 20px; }
+  .section_p--index {
+    font-size: 20px; }
+  .about--font {
+    font-size: 10px; } }

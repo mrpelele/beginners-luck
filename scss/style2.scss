@@ -703,7 +703,7 @@ grid-area: img;
     
 
     #id1{
-        font-size: 35px;
+        font-size: 30px;
         letter-spacing: 2px;
     }
 
@@ -718,9 +718,10 @@ grid-area: img;
     
         padding: 0px 50px 0px 50px;
         margin-top: 200px;
-        font-size: 40px;
+        font-size: 20px;
     }
-    
+
+
     .indexQuestion {
         display: grid;  
         grid-template-areas: 
@@ -732,7 +733,7 @@ grid-area: img;
     
         padding: 20px 120px 0px 20px;
         margin-top: 200px;
-        font-size: 40px;
+        font-size: 20px;
         grid-gap: 100px
     }
     
@@ -748,7 +749,7 @@ grid-area: img;
         padding: 0px 115px 0px 00px;
         margin-top: 200px;
         grid-gap: 35px;
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .GridTextIndex {
@@ -763,5 +764,23 @@ grid-area: img;
         font-size: 60px;
         font-size: 40px;
     }
+
+    main {
+        font-size: 20px;
+        }
+
+    .section_p--index {
+        font-size: 20px;
+
+        }
+
+    .about--font {
+
+            font-size: 10px;
+
+        }
+
+
+
 
 }
